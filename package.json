@@ -2,11 +2,8 @@
   "name": "rfp.package.json",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://SpeedyM282.github.io/quizzical",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
