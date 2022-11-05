@@ -1,0 +1,25 @@
+.question-field-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 0 0 15px 0;
+  border-bottom: 0.8px solid #DBDEF0;
+  border-width: 100%;
+  margin-bottom: 20px;
+}
+
+.question-txt-wrapper {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+}
+
+.answerbtns-wrapper {
+  width: 100%;
+  display: flex;
+  gap: 13px;
+}

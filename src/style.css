@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  padding: 30px 0;
+}
+
+.App {
+  margin: auto;
+  width: 700px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #F5F7FB transparent;
+
+}
+
+.upper-right-img {
+  background: url('./assets/blob_up_right.svg');
+  position: absolute;
+  left: 62.8%;
+  top: 4.5%;
+  width: 153px;
+  height: 140px;
+}
+
+.bottom-left-img {
+  background: url('./assets/blob_bottom_left.svg');
+  position: absolute;
+  left: 27.2%;
+  top: 78.7%;
+  width: 148px;
+  height: 119px;
+}
+
+.upper-right-img,
+.bottom-left-img {
+  background-position: center;
+  background-repeat: no-repeat;
+}
